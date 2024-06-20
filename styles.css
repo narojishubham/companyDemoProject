@@ -1,0 +1,1085 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+    background-color:
+        #19191B;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolioContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contentContainer {
+    display: grid;
+    gap: 4.2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.containerWhatClientSays {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5rem auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 10rem;
+    border-radius: 0.3rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    text-align: center;
+}
+
+.showHideIcon {
+    display: none;
+    color: #fff;
+}
+
+.hero {
+    background-color: #19191B;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-image {
+    padding: 6rem 0 0;
+}
+
+.hero-text h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: left;
+    margin-bottom: 3rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.hero-text p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    color: #FFFFFFB2;
+    margin-bottom: 3rem
+}
+
+.ListClass {
+    gap: 1.2rem;
+    display: flex;
+}
+
+.services-btn {
+    background-color: #ff3b30;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    height: 3.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    transition: transform 1.5s ease;
+}
+
+button.services-btn:hover {
+    scale: 1.1;
+}
+
+.service-card:hover {
+    border: 2px solid #6D6665;
+    transform: scale(1.05);
+}
+
+.mainImage {
+    max-width: 100%;
+    height: auto;
+    scale: 1.32;
+}
+
+.services {
+    background-color: #19191B;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.services h2 {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 5rem;
+    width: 60%;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+    z-index: 100
+}
+
+.serviceCardHeader {
+    font-size: 28px;
+    text-align: center;
+    padding: 1.5rem 0 0.5rem;
+}
+
+.service-card {
+    border-radius: 40px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s;
+    padding: 2rem 4rem;
+}
+
+.service-card.active {
+    border: 2px solid #6D6665;
+    transform: scale(1.05);
+}
+
+.active {
+    position: relative;
+}
+
+.active1 {
+    color: #FF5151;
+
+}
+
+.active .displayorangeDot {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #ff3b30;
+    border-radius: 50%;
+    border: 5px solid #19191B;
+    position: absolute;
+    bottom: -5%;
+    right: 47.4%;
+}
+
+.service-card .icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #aaa;
+}
+
+.portfolio {
+    background-color: #19191B;
+    color: #fff;
+    padding: 50px 0;
+}
+
+
+.portfolioHeader {
+    font-size: 58px;
+    font-weight: 900;
+    margin: 4rem 0 2rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.portfolio-filter {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.portfolio-filter button {
+    background-color: transparent;
+    color: #FFFFFFB2;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.portfolio-filter button.active,
+.portfolio-filter button:hover {
+    background-color: #ff3b30;
+    color: #fff;
+}
+
+.portfolio-items {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.clickedImage {
+    width: 100%;
+}
+
+.portfolio-item {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.newTestimonial {
+    display: flex;
+    gap: 1.8rem;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.portfolio-item h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    font-size: 20px;
+    color: #aaa;
+}
+
+.view-more {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 1rem 2.3rem;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.testimonialHeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-more:hover {
+    background-color: #ff3b30;
+    color: #fff;
+}
+
+.testimonials {
+    background-color: #19191B;
+    color: #fff;
+    padding: 0.1rem 0 3rem;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 60px;
+    margin-bottom: 40px;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+}
+
+.testimonials-carousel {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.testimonial {
+    background-color: #333;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    text-align: left;
+}
+
+.testimonial img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.testimonial h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 17px;
+    color: #aaa;
+    margin-bottom: 10px;
+    line-height: 1.7rem;
+}
+
+.client-name {
+    font-weight: bold;
+}
+
+.client-role {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: #ff3b30;
+    padding: 1.5rem 0 1.5rem;
+}
+
+.contact {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.providerCard {
+    flex-direction: column;
+}
+
+.contact-container {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    gap: 3rem;
+}
+
+.contact-info {
+    background-color: #222;
+    width: 40%;
+}
+
+.contact-info h2,
+.contact-form h1 {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.fieldWidth {
+    width: 45%
+}
+
+.inputWrapper {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+    width: 25%;
+    height: 3rem;
+    border: 1px solid;
+    border-radius: 0.2rem;
+}
+
+.contact-form button:hover {
+    background-color: #e03e00;
+}
+
+.social-media {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 0 0;
+}
+
+.social-media img {
+    height: 1rem;
+
+}
+
+.footer {
+    display: flex;
+    width: 80%;
+    margin: 4rem auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+.logo img {
+    width: 8rem;
+}
+
+.addressDetail {
+    text-align: left;
+    font-size: 18px;
+    color: #FFFFFFB2;
+}
+
+.addressWraper {
+
+    display: flex;
+    gap: 4rem;
+
+}
+
+.bottom-border {
+    border: none;
+    border-bottom: 1px solid #FFFFFF80;
+    padding: 8px 0;
+    outline: none;
+}
+
+.bottom-border:focus {
+    border-bottom-color: #007BFF;
+}
+
+.backgroundClass {
+    background: #FFFFFF1A;
+
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alignCenterClass {
+    text-align: center;
+}
+
+.NameAndDesignation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.borderNone {
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.address1 {
+    text-align: justify;
+    font-size: 18px;
+    color: #fff;
+    padding: 3rem 0 0rem;
+}
+
+.contactHeaderClass {
+    margin: 0 0 1rem;
+    text-align: left;
+    font-size: 48px;
+}
+
+.firstGraph {
+    width: 7rem;
+    position: absolute;
+    top: 19%;
+    left: 5%;
+}
+
+.secondGraph {
+    position: absolute;
+    width: 3rem;
+    right: -8%;
+    top: 10%;
+
+}
+
+.thirdGraph {
+    width: 6.5rem;
+    bottom: -5%;
+    left: 0;
+    position: absolute;
+}
+
+.ForthGraph {
+    position: absolute;
+    bottom: -2.5%;
+    width: 3rem;
+}
+
+.secondGraph1 {
+    position: absolute;
+    width: 3rem;
+    left: 20%;
+    top: 13%;
+    transform: rotate(335deg);
+}
+
+.sixthGraph1 {
+    position: absolute;
+    top: 36%;
+    right: 9rem;
+    width: 5rem;
+}
+
+.sixthGraph11 {
+    position: absolute;
+    left: 5%;
+    width: 5rem;
+    z-index: 1;
+}
+
+.bagroundImageAlignment {
+    position: absolute;
+    width: 40%;
+    top: 57%;
+
+}
+
+.portfolio-item1 {
+    z-index: 1000;
+    position: relative;
+}
+
+.firstGraph1 {
+    position: absolute;
+    bottom: -7%;
+    width: 7rem;
+    left: 5%;
+
+}
+
+.ForthGraph1 {
+    width: 3rem;
+    right: 30%;
+    bottom: -5%;
+}
+
+.ForthGraph2 {
+    display: none;
+}
+
+.arrowButton {
+    display: none;
+}
+
+.ForthGraph3 {
+    position: absolute;
+    bottom: -2.5%;
+    width: 3rem;
+    right: 30%;
+}
+
+.secondGraph2 {
+    display: none;
+}
+
+.portfolio-item1 p {
+    font-size: 24px;
+    color: #aaa;
+}
+
+.hideImage {
+    display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+    .hero .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-card {
+        /* display: none; */
+    }
+
+    .service-card.active {
+        display: block;
+    }
+
+    .alignCenterClass {
+        display: none;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .footer {
+
+        margin: 4rem auto 0;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .footerText {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .inputWrapper {
+        flex-direction: column;
+        align-items: unset;
+
+    }
+
+    .fieldWidth {
+        width: 100%;
+    }
+
+    .inputWrapper textarea {
+        width: 100% !important;
+    }
+
+    .contactHeaderClass {
+        margin: 0 0 3rem;
+    }
+
+    .space1 {
+        margin-bottom: 2rem !important;
+    }
+
+    .contact-form button {
+        width: 50%;
+    }
+
+    .navContainre1 {
+        display: none;
+    }
+
+    .showHideIcon {
+        display: block;
+        position: absolute;
+        right: 6%;
+        z-index: 500;
+    }
+
+    .mobile-nav-menu {
+        display: none;
+    }
+
+    .service-cards {
+
+        flex-direction: column;
+    }
+
+    .service-card {
+        width: 80%;
+    }
+
+    .sixthGraph1 {
+        display: none;
+    }
+
+    .mainImage {
+        max-width: 90%;
+    }
+
+    .secondGraph {
+        right: 12%;
+        top: -5%;
+    }
+
+    .ForthGraph {
+        bottom: -27.5%;
+        right: 14%;
+    }
+
+    .secondGraph1 {
+        display: none;
+    }
+
+    .services h2 {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    .sixthGraph11 {
+        display: none;
+    }
+
+    .ForthGraph2 {
+        position: absolute;
+        z-index: 1;
+        width: 3rem;
+        right: 8%;
+        bottom: -3%;
+        display: block;
+    }
+
+    .contentContainer {
+
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-items {
+        display: none;
+    }
+
+    .portfolio {
+        padding: 1px 0;
+    }
+
+    .services {
+        padding: 10rem 0 0;
+
+    }
+
+    .view-more {
+        display: none;
+    }
+
+    .firstGraph1 {
+        display: none;
+    }
+
+    .arrowButton {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ForthGraph3 {
+        position: absolute;
+        width: 2.5rem;
+        right: 9%;
+        bottom: 5%;
+    }
+
+    .LeftRightIcon {
+        display: none;
+    }
+
+    .testimonials {
+        padding: 1px 0 3rem;
+    }
+
+    .testimonials h2 {
+        margin: 0 0 1rem;
+    }
+
+    .newTestimonial {
+        flex-direction: column;
+    }
+
+    .testimonial img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .testimonial {
+        padding: 2rem 2rem;
+    }
+
+    .rating {
+        padding: 0% !important;
+    }
+
+    .testimonials-carousel {
+        display: block;
+    }
+
+    .testMonialImage {
+        height: 17rem !important;
+    }
+
+    .bagroundImageAlignment {
+        display: none;
+    }
+
+    .rightBackground {
+        display: none;
+    }
+
+    .secondGraph2 {
+        position: absolute;
+        width: 2.7rem;
+        left: 0;
+        bottom: 1%;
+        display: block;
+    }
+
+    .service-cards {
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .thirdGraph {
+        width: 3.5rem;
+        bottom: -9%;
+        left: 0;
+        position: absolute;
+    }
+
+    .ForthGraph {
+        right: 7%;
+    }
+
+    .firstGraph {
+        width: 4rem;
+        position: absolute;
+        top: 24%;
+        left: 5%;
+    }
+
+    .secondGraph {
+        right: 1%;
+        top: 10%;
+        width: 2rem;
+    }
+
+    .hero-text h1 {
+        font-size: 42px;
+        line-height: 50.4px;
+        margin-bottom: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .service-card {
+        width: 87%;
+        padding: 2rem;
+    }
+
+    .portfolio-filter button {
+        margin: 0;
+        padding: 10px 12px;
+    }
+
+    .services h2 {
+        font-size: 35px;
+        line-height: 54px;
+        text-align: left;
+    }
+
+    .serviceCardHeader {
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: -0.7503158450126648px;
+    }
+
+    .active .displayorangeDot {
+        right: 44.4%;
+    }
+
+    .portfolioHeader {
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .headerStyleText {
+        font-size: 24px !important;
+        letter-spacing: -0.7503158450126648px;
+    }
+
+    .portfolio-item1 p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .testimonials h2 {
+        font-size: 36px;
+        line-height: 54px;
+
+    }
+
+    .testimonial p {
+        font-size: 16px;
+        text-align: left;
+        letter-spacing: -0.5002105832099915px;
+    }
+
+    .addressWraper {
+        gap: 2rem;
+    }
+
+    .address1 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .addressDetail {
+        font-size: 14px;
+    }
+
+    .contactHeaderClass {
+        font-size: 32px;
+    }
+
+    .contact-form button {
+        font-family: Nunito Sans;
+        font-size: 16px;
+        margin: 1.5rem 0 0;
+    }
+
+    .footer a {
+        font-size: 14px;
+        color: #FFFFFFB2;
+    }
+
+    .footer p {
+        font-size: 14px;
+        color: #FFFFFFB2;
+        padding: 1rem 0;
+    }
+
+    .ForthGraph2 {
+        width: 2.2rem;
+    }
+
+    .ForthGraph3 {
+        width: 2;
+    }
+
+    .testimonials-carousel {
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .testimonial {
+        transition: transform 0.5s ease;
+    }
+
+    .testimonial:not(:first-child) {
+        display: none;
+    }
+
+    .testimonial h3 {
+        margin-bottom: 1rem;
+    }
+
+    .rating1 {
+        padding: 2% !important;
+    }
+
+    .rating {
+        padding: 0.4rem 0 0.1rem
+    }
+
+    .firstCardStyle {
+        margin: 0.5rem 0;
+    }
+
+    .userContainer {
+        padding: 1rem 0 0 !important;
+    }
+
+    .hideImage {
+        display: block;
+    }
+
+}
+
+.mobile-menu-modal {
+    width: 16rem;
+    background: #000;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 500;
+    display: none;
+    padding: 3rem 1.5rem;
+}
